@@ -98,7 +98,7 @@ export function WaitlistSuccess({ userName, userEmail }: WaitlistSuccessProps) {
                         {/* Card Content */}
                         <div className="relative z-20 h-full p-6 flex flex-col justify-between select-none">
                             <div className="flex justify-between items-start">
-                                <img src="/logo-icon.png" className="w-8 h-8 object-contain opacity-90 mix-blend-screen" alt="Regard" />
+                                <img src="/logo-icon.png" className="w-8 h-8 object-contain opacity-90 mix-blend-screen" alt="Cadran" />
                                 <div className="text-[10px] text-zinc-500 font-mono border border-zinc-800 px-2 py-0.5 rounded">BETA ACCESS</div>
                             </div>
 
@@ -133,7 +133,7 @@ export function WaitlistSuccess({ userName, userEmail }: WaitlistSuccessProps) {
                         <div className="pt-4 border-t border-white/5 w-full">
                             <p className="text-xs text-zinc-500 uppercase tracking-widest mb-3 text-center">Quer prioridade na fila?</p>
                             <button className="w-full py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg font-bold text-white flex items-center justify-center gap-2 hover:opacity-90 transition-opacity shadow-lg shadow-purple-900/20">
-                                <Instagram size={18} /> Seguir @regard.md
+                                <Instagram size={18} /> Seguir @cadran.md
                             </button>
                         </div>
                     </div>

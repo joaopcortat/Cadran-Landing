@@ -53,7 +53,7 @@ export default function LandingPage() {
                             <img
                                 src="/logo-icon.png"
                                 className="w-full h-full object-contain mix-blend-screen opacity-90 group-hover:opacity-100 transition-opacity duration-500"
-                                alt="Regard Logo"
+                                alt="Cadran Logo"
                             />
                             {/* Subtle Glow behind logo */}
                             <div className="absolute inset-0 bg-blue-500/20 blur-2xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
@@ -64,7 +64,7 @@ export default function LandingPage() {
                             transition={{ delay: 0.8, duration: 1 }}
                             className="text-lg font-bold tracking-[0.35em] uppercase text-zinc-100"
                         >
-                            Regard
+                            CADRAN
                         </motion.h2>
                     </motion.div>
 
@@ -158,7 +158,7 @@ export default function LandingPage() {
                                 whileHover={{ scale: 1.05 }}
                                 className="relative z-10 w-48 h-48 rounded-full border border-blue-500/30 flex items-center justify-center bg-[#050505]/80 backdrop-blur-xl shadow-[0_0_50px_-10px_rgba(59,130,246,0.2)]"
                             >
-                                <img src="/logo-icon.png" className="w-24 h-24 object-contain mix-blend-screen opacity-90 drop-shadow-[0_0_15px_rgba(59,130,246,0.5)]" />
+                                <img src="/logo-icon.png" className="w-24 h-24 object-contain mix-blend-screen opacity-90 drop-shadow-[0_0_15px_rgba(59,130,246,0.5)]" alt="Cadran Logo" />
                             </motion.div>
                         </FadeIn>
                     </div>
@@ -168,7 +168,7 @@ export default function LandingPage() {
                         <FadeIn delay={0.2}>
                             <h3 className="text-sm font-bold text-blue-500 tracking-widest uppercase mb-4">Clareza Absoluta</h3>
                             <h2 className="text-4xl md:text-5xl font-semibold mb-6 text-white">
-                                Regard traz <span className="text-blue-400">controle total</span>.
+                                Cadran traz <span className="text-blue-400">controle total</span>.
                             </h2>
                             <p className="text-zinc-400 text-lg leading-relaxed">
                                 Elimine gargalos com um sistema que pensa antes de você. Da captação inteligente à análise financeira em tempo real. O luxo de ter paz mental.
@@ -181,7 +181,7 @@ export default function LandingPage() {
             {/* Footer */}
             <footer className="py-12 border-t border-white/5 text-center">
                 <p className="text-zinc-600 text-sm tracking-widest uppercase">
-                    &copy; 2026 Regard Systems. Feito para a elite.
+                    &copy; 2026 Cadran Systems. Feito para a elite.
                 </p>
             </footer>
         </div>

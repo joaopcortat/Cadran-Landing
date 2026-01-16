@@ -56,7 +56,7 @@ export function BentoFeatures() {
                         </div>
                         <div>
                             <h3 className="text-xl font-bold text-white mb-2">Inteligência Preditiva</h3>
-                            <p className="text-zinc-400">O Regard prevê cancelamentos e preenche lacunas automaticamente. Nossa IA aprende os padrões da sua clínica.</p>
+                            <p className="text-zinc-400">O Cadran prevê cancelamentos e preenche lacunas automaticamente. Nossa IA aprende os padrões da sua clínica.</p>
                         </div>
                         <div className="h-32 mt-4 bg-gradient-to-r from-blue-500/5 to-transparent rounded-lg border border-white/5 relative overflow-hidden">
                             <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20" />
