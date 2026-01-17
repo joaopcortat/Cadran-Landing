@@ -1,3 +1,4 @@
+// Force Vercel Redeploy - v1.0 Restore
 import React, { useRef, useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
