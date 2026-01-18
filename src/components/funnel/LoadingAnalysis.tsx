@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import { Loader2, CheckCircle2, Search, BrainCircuit } from 'lucide-react';
+import { Loader2, BrainCircuit } from 'lucide-react';
 
 export function LoadingAnalysis({ onComplete }: { onComplete: () => void }) {
     const [status, setStatus] = useState("Conectando aos servidores...");

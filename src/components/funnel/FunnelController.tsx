@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { QuizStep } from './QuizStep';
 import { LoadingAnalysis } from './LoadingAnalysis';
 import { RestrictedReport } from './RestrictedReport';
-import { CadranLogo } from '../brand/CadranLogo';
+// import { CadranLogo } from '../brand/CadranLogo';
 
 interface FunnelControllerProps {
     onClose: () => void;

@@ -1,5 +1,5 @@
 import { Check, Sparkles, TrendingUp, Users, CreditCard, Activity, BrainCircuit } from 'lucide-react';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 export function HeroAura({ onStart, onWaitlist }: { onStart: () => void, onWaitlist: () => void }) {
     return (
@@ -82,14 +82,14 @@ export function HeroAura({ onStart, onWaitlist }: { onStart: () => void, onWaitl
                                 </div>
                             </div>
 
-                            <div className="h-48 flex items-end justify-between gap-2 px-2 pb-2 border-b border-slate-800/50">
-                                <Bar height="45%" delay="0s" indigo />
-                                <Bar height="65%" delay="0.1s" indigo />
-                                <Bar height="55%" delay="0.2s" indigo />
-                                <Bar height="85%" delay="0.3s" indigo />
-                                <Bar height="70%" delay="0.4s" indigo />
-                                <Bar height="92%" delay="0.5s" solid />
+                            <div className="flex gap-2 items-end h-[60px] opacity-50 relative z-0 mt-2">
+                                <Bar height="40%" delay="0s" />
+                                <Bar height="70%" delay="0.1s" />
+                                <Bar height="50%" delay="0.2s" />
+                                <Bar height="85%" delay="0.3s" />
+                                <Bar height="60%" delay="0.4s" />
                             </div>
+                            <Bar height="92%" delay="0.5s" solid />
 
                             <div className="grid grid-cols-3 gap-4">
                                 <MetricCard icon={<Users className="w-3 h-3" />} label="Ativos" value="1,248" />
@@ -138,7 +138,7 @@ export function HeroAura({ onStart, onWaitlist }: { onStart: () => void, onWaitl
     );
 }
 
-function Bar({ height, delay, indigo, solid }: { height: string, delay: string, indigo?: boolean, solid?: boolean }) {
+function Bar({ height, delay, solid }: { height: string, delay: string, solid?: boolean }) {
     const bgClass = solid ? "bg-indigo-500" : "bg-indigo-600";
     const shadowClass = solid ? "shadow-[0_0_15px_rgba(99,102,241,0.5)]" : "shadow-[0_0_10px_rgba(79,70,229,0.3)]";
 

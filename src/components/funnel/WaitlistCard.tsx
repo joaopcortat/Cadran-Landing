@@ -1,8 +1,8 @@
-import { useRef, useState } from 'react';
+// import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { CadranLogo } from '../brand/CadranLogo';
 
-export function WaitlistCard({ name, email, memberId, onDownload }: { name: string, email: string, memberId: string, onDownload?: () => void }) {
+export function WaitlistCard({ name, email, memberId }: { name: string, email: string, memberId: string }) {
     return (
         <motion.div
             initial={{ opacity: 0, scale: 0.9, rotateY: 90 }}

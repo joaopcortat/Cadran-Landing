@@ -80,7 +80,7 @@ export function InteractiveTabs() {
 
 function TabButton({ active, onClick, icon, title, subtitle, colorClass }: any) {
     const activeBg = active ? 'bg-slate-900/60' : 'hover:bg-slate-900/60';
-    const activeBorder = active ? 'border-l-indigo-500' : 'border-l-transparent';
+
     // Manual border implementation via style or class trick as per aura design? 
     // Aura design uses absolute pseudo element for border. Using inline logic here.
 
@@ -218,7 +218,7 @@ function RetencaoContent() {
                     <div>
                         <h4 className="text-slate-100 font-semibold text-sm">Oportunidade de Reativação</h4>
                         <p className="text-xs text-slate-400 mt-1 leading-relaxed">
-                            Identificamos <span className="text-amber-400 font-medium">45 pacientes</span> sem retorno há 6 meses. Potencial de receita: <span class="text-slate-200">R$ 18.500</span>.
+                            Identificamos <span className="text-amber-400 font-medium">45 pacientes</span> sem retorno há 6 meses. Potencial de receita: <span className="text-slate-200">R$ 18.500</span>.
                         </p>
                     </div>
                 </div>

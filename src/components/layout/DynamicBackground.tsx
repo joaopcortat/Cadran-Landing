@@ -5,7 +5,7 @@ export function DynamicBackground() {
 
     // Create varying movement speeds for parallax effect
     const y1 = useTransform(scrollY, [0, 1000], [0, 400]);
-    const y2 = useTransform(scrollY, [0, 1000], [0, -300]);
+    // const y2 = useTransform(scrollY, [0, 1000], [0, -300]);
     const y3 = useTransform(scrollY, [0, 1000], [0, 200]);
     const opacity = useTransform(scrollY, [0, 500, 1000], [0.8, 1, 0.8]);
 
